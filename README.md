@@ -1,4 +1,4 @@
-# Katalyst.ng
+# Katalystng
  speed up your learning
 Created by Akingbe Samuel for CodeinDevelopers
 02/02/23

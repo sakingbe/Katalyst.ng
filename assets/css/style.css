@@ -17,6 +17,7 @@
 	|___ Default Styles
 	|	|
 	|	|___ variables
+  | |___ Font
 	|	|___ mixins
 	|	|___ reset
 	|	|___ typography
@@ -121,9 +122,11 @@
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap");
 
+/* --Font--*/
 .css-selector {
 font-family: 'Nunito', serif;
 }
+
 :root {
   --color-primary: #2f57ef;
   --color-secondary: #b966e7;
@@ -214,7 +217,7 @@ font-family: 'Nunito', serif;
   --transition-2: 256ms ease-in-out;
   --transition-3: transform .85s cubic-bezier(.23,1,.32,1),background .3s,border .3s,border-radius .3s,box-shadow .3s;
   --transition-4: all .25s cubic-bezier(.645,.045,.355,1);
-  --font-primary: "Nunito";
+  --font-primary: "Nunito", bold;
   --font-secondary: "Nunito";
   --font-alt: "Source Serif Pro", serif;
   --font-size-b1: 24px;
