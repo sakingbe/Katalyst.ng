@@ -530,8 +530,10 @@
       mainPlan.each(function () {
         var yearlySelectBtn = $(".yearly-plan-btn"),
           monthlySelectBtn = $(".monthly-plan-btn"),
+          saasSelectBtn = $(".saas-plan-btn"),
           monthlyPrice = $(".monthly-pricing"),
           yearlyPrice = $(".yearly-pricing"),
+          yearlyPrice = $(".saas-pricing"),
           buttonSlide = $(".pricing-checkbox");
 
         $(monthlySelectBtn).on("click", function () {
@@ -557,6 +559,18 @@
           monthlyPrice.css("display", "none");
           yearlyPrice.css("display", "block");
         });
+
+         $(saasSelectBtn).on("click", function () {
+           buttonSlide.prop("checked", true);
+           $(this)
+             .addClass("active")
+             .parent(".nav-item")
+             .siblings()
+             .children()
+             .removeClass("active");
+           monthlyPrice.css("display", "block");
+           yearlyPrice.css("display", "none");
+         });
 
         $(buttonSlide).change(function () {
           if ($('input[class="pricing-checkbox"]:checked').length > 0) {
