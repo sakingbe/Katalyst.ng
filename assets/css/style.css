@@ -129,7 +129,7 @@ font-family: 'Nunito', serif;
 
 :root {
   --color-primary: #2f57ef;
-  --color-secondary: #ec5d2a;
+  --color-secondary: #FF8F3C;
   --color-coral: #E9967A;
   --color-violet: #800080;
   --color-pink: #DB7093;
@@ -139,7 +139,7 @@ font-family: 'Nunito', serif;
   --color-white-off: #FFFFFFAB;
   --color-bodyest: #273041;
   --color-dark: #27272E;
-  --color-darker: #192335;
+  --color-darker: #1d0ab3;
   --color-black: #111113;
   --color-grey: rgba(207,207,207,.24);
   --color-grey2: #f4f5f7;
@@ -186,7 +186,7 @@ font-family: 'Nunito', serif;
   --color-pinterest: #E60022;
   --color-instagram: #C231A1;
   --color-vimeo: #00ADEF;
-  --color-twitch: #6441A3;
+  --color-twitch: #FF8F3C;
   --color-discord: #7289da;
   --radius-10: 10px;
   --radius-big: 16px;
@@ -243,8 +243,8 @@ font-family: 'Nunito', serif;
   --gradient-5: linear-gradient(rgb(239, 241, 255) 0%, rgb(239, 241, 255) 100%);
   --gradient-6: linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(251, 199, 226, 0.15), rgba(220, 217, 254, 0.15));
   --gradient-7: linear-gradient(218.15deg, var(--color-secondary) 0%, var(--color-primary) 100%);
-  --gradient-8: linear-gradient(270deg, #9e77ff 0%, #4460ff 100%);
-  --gradient-9: linear-gradient(180deg, #6827FF 0%, #E3F0FF 100%);
+  --gradient-8: linear-gradient(270deg, #FF8F3C 0%, #4460ff 100%);
+  --gradient-9: linear-gradient(180deg, #FF8F3C 0%, #E3F0FF 100%);
 }
 
 /**
