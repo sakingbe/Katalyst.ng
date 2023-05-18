@@ -32,7 +32,7 @@ jQuery(document).ready(function ($) {
         if (word.parents(".rotate-2").length > 0)
           letters[i] = "<em>" + letters[i] + "</em>";
         letters[i] = selected
-          ? '<i class="in">' + letters[i] + "</i>"
+          ? ' <i data-feather="in">' + letters[i] + "</i>"
           : "<i>" + letters[i] + "</i>";
       }
       var newLetters = letters.join("");
