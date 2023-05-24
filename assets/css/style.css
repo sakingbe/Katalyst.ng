@@ -129,7 +129,7 @@ font-family: 'Nunito', serif;
 
 :root {
   --color-primary: #2f57ef;
-  --color-secondary: #FF8F3C;
+  --color-secondary: #2f57ef;
   --color-coral: #E9967A;
   --color-violet: #800080;
   --color-pink: #DB7093;
@@ -219,7 +219,7 @@ font-family: 'Nunito', serif;
   --transition-4: all .25s cubic-bezier(.645,.045,.355,1);
   --font-primary: "Nunito", bold;
   --font-secondary: "Nunito";
-  --font-alt: "Source Serif Pro", serif;
+  --font-alt: "Nunito";
   --font-size-b1: 24px;
   --font-size-b2: 18px;
   --font-size-b3: 16px;
@@ -243,8 +243,8 @@ font-family: 'Nunito', serif;
   --gradient-5: linear-gradient(rgb(239, 241, 255) 0%, rgb(239, 241, 255) 100%);
   --gradient-6: linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(251, 199, 226, 0.15), rgba(220, 217, 254, 0.15));
   --gradient-7: linear-gradient(218.15deg, var(--color-secondary) 0%, var(--color-primary) 100%);
-  --gradient-8: linear-gradient(270deg, #FF8F3C 0%, #4460ff 100%);
-  --gradient-9: linear-gradient(180deg, #FF8F3C 0%, #E3F0FF 100%);
+  --gradient-8: linear-gradient(270deg, #2f57ef 0%, #4460ff 100%);
+  --gradient-9: linear-gradient(180deg, #2f57ef 0%, #E3F0FF 100%);
 }
 
 /**
@@ -14210,6 +14210,7 @@ span.transparent-button:hover i {
   line-height: 15px;
   font-weight: 500;
   color: var(--color-heading);
+  margin-top: 16px;
   margin-bottom: 15px;
   display: inline-block;
   padding: 10px 20px;
@@ -18865,8 +18866,8 @@ span.transparent-button:hover i {
 
 .rbt-progress-parent {
   position: fixed;
-  right: 30px;
-  bottom: 30px;
+  right: 10px;
+  bottom: 70px;
   height: 46px;
   width: 46px;
   cursor: pointer;
