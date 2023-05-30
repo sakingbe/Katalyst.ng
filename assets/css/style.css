@@ -3,7 +3,7 @@
 
 	Katalyst:  Online Courses & Education platform.
 	Description: Speed up your learning
-    Author: Akingbe Samuel for CodeinDevelopers
+  Author: Akingbe Samuel for CodeinDevelopers
     02/02/2023
 
 	Note: This is style css.
@@ -119,7 +119,8 @@
 /**************************************
     Default Styles
 ***************************************/
-/*-- Variables --*/
+
+/* --Font--*/
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap");
 
 /* --Font--*/
@@ -339,7 +340,7 @@ ins {
 }
 
 pre {
-  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-family: "Nunito", Courier, monospace;
   font-size: var(--font-size-b3);
   margin: 10px 0;
   overflow: auto;
@@ -634,7 +635,6 @@ body {
     line-height: 1.5;
   }
 }
-
 h1,
 h2,
 h3,
@@ -2401,7 +2401,7 @@ textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .rbt-section-gap {
-    padding: 80px 0;
+    padding: 8px 0;
   }
 }
 
@@ -2420,7 +2420,7 @@ textarea:-ms-input-placeholder {
 }
 
 .rbt-section-gapBottom {
-  padding-bottom: 120px;
+  padding-bottom: 12px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rbt-section-gapBottom {
@@ -2946,7 +2946,7 @@ textarea:-ms-input-placeholder {
 }
 
 .pb--40 {
-  padding-bottom: 40px !important;
+  padding-bottom: 4px !important;
 }
 
 .pl--40 {
@@ -3262,7 +3262,7 @@ textarea:-ms-input-placeholder {
 }
 
 .pt--80 {
-  padding-top: 20px !important;
+  padding-top: 0px !important;
 }
 
 .pb--80 {
