@@ -2457,7 +2457,7 @@ textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .rbt-section-gapTop {
-    padding-top: 80px;
+    padding-top: 8px;
   }
 }
 
