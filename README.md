@@ -1,6 +1,6 @@
 # Katalystng
  speed up your learning
-Created by Akingbe Samuel for CodeinDevelopers https://Codeindev.com.ng/
+Created by Akingbe Samuel for CodeinDevelopers https://katalyst.ng/
 02/02/23
 
 project structure
