@@ -26772,7 +26772,7 @@ Course Sidebar
 -------------------------*/
 .footer-style-1 .footer-top {
   padding-top: 80px;
-  padding-bottom: 90px;
+  padding-bottom: 20px;
 }
 @media only screen and (max-width: 767px) {
   .footer-style-1 .footer-top {
