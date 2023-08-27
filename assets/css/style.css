@@ -1476,8 +1476,8 @@ ul.rbt-dropdown-menu li .sub-menu li a, ul.rbt-dropdown-menu li a .right-icon, u
 }
 
 .bg-secondary-opacity {
-  background: var(--secondary-opacity) !important;
-  color: var(--color-secondary) !important;
+  background:  var(--color-warning)!important;
+  color: var(--color-primary) !important;
 }
 
 .bg-coral-opacity {
