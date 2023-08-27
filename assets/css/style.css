@@ -18889,7 +18889,7 @@ span.transparent-button:hover i {
 .rbt-progress-parent::after {
   position: absolute;
   font-family: "feather" !important;
-  content: "";
+  content: "\e914";
   text-align: center;
   line-height: 46px;
   font-size: 20px;
