@@ -3,7 +3,7 @@
 
 	Katalyst:  Online Courses & Education platform.
 	Description: Speed up your learning
-    Author: Akingbe Samuel for CodeinDevelopers
+  Author: Akingbe Samuel for CodeinDevelopers
     02/02/2023
 
 	Note: This is style css.
@@ -119,7 +119,8 @@
 /**************************************
     Default Styles
 ***************************************/
-/*-- Variables --*/
+
+/* --Font--*/
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap");
 
 /* --Font--*/
@@ -129,7 +130,7 @@ font-family: 'Nunito', serif;
 
 :root {
   --color-primary: #2f57ef;
-  --color-secondary: #b966e7;
+  --color-secondary: #2f57ef;
   --color-coral: #E9967A;
   --color-violet: #800080;
   --color-pink: #DB7093;
@@ -139,7 +140,7 @@ font-family: 'Nunito', serif;
   --color-white-off: #FFFFFFAB;
   --color-bodyest: #273041;
   --color-dark: #27272E;
-  --color-darker: #192335;
+  --color-darker: #1d0ab3;
   --color-black: #111113;
   --color-grey: rgba(207,207,207,.24);
   --color-grey2: #f4f5f7;
@@ -186,7 +187,7 @@ font-family: 'Nunito', serif;
   --color-pinterest: #E60022;
   --color-instagram: #C231A1;
   --color-vimeo: #00ADEF;
-  --color-twitch: #6441A3;
+  --color-twitch: #FF8F3C;
   --color-discord: #7289da;
   --radius-10: 10px;
   --radius-big: 16px;
@@ -219,7 +220,7 @@ font-family: 'Nunito', serif;
   --transition-4: all .25s cubic-bezier(.645,.045,.355,1);
   --font-primary: "Nunito", bold;
   --font-secondary: "Nunito";
-  --font-alt: "Source Serif Pro", serif;
+  --font-alt: "Nunito";
   --font-size-b1: 24px;
   --font-size-b2: 18px;
   --font-size-b3: 16px;
@@ -243,8 +244,8 @@ font-family: 'Nunito', serif;
   --gradient-5: linear-gradient(rgb(239, 241, 255) 0%, rgb(239, 241, 255) 100%);
   --gradient-6: linear-gradient(to right, rgba(255, 255, 255, 0.15), rgba(251, 199, 226, 0.15), rgba(220, 217, 254, 0.15));
   --gradient-7: linear-gradient(218.15deg, var(--color-secondary) 0%, var(--color-primary) 100%);
-  --gradient-8: linear-gradient(270deg, #9e77ff 0%, #4460ff 100%);
-  --gradient-9: linear-gradient(180deg, #6827FF 0%, #E3F0FF 100%);
+  --gradient-8: linear-gradient(270deg, #2f57ef 0%, #4460ff 100%);
+  --gradient-9: linear-gradient(180deg, #2f57ef 0%, #E3F0FF 100%);
 }
 
 /**
@@ -339,7 +340,7 @@ ins {
 }
 
 pre {
-  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-family: "Nunito", Courier, monospace;
   font-size: var(--font-size-b3);
   margin: 10px 0;
   overflow: auto;
@@ -634,7 +635,6 @@ body {
     line-height: 1.5;
   }
 }
-
 h1,
 h2,
 h3,
@@ -1476,8 +1476,8 @@ ul.rbt-dropdown-menu li .sub-menu li a, ul.rbt-dropdown-menu li a .right-icon, u
 }
 
 .bg-secondary-opacity {
-  background: var(--secondary-opacity) !important;
-  color: var(--color-secondary) !important;
+  background:  var(--color-warning)!important;
+  color: var(--color-primary) !important;
 }
 
 .bg-coral-opacity {
@@ -2401,7 +2401,7 @@ textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .rbt-section-gap {
-    padding: 80px 0;
+    padding: 8px 0;
   }
 }
 
@@ -2420,7 +2420,7 @@ textarea:-ms-input-placeholder {
 }
 
 .rbt-section-gapBottom {
-  padding-bottom: 120px;
+  padding-bottom: 12px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rbt-section-gapBottom {
@@ -2457,7 +2457,7 @@ textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 767px) {
   .rbt-section-gapTop {
-    padding-top: 80px;
+    padding-top: 8px;
   }
 }
 
@@ -2946,7 +2946,7 @@ textarea:-ms-input-placeholder {
 }
 
 .pb--40 {
-  padding-bottom: 40px !important;
+  padding-bottom: 4px !important;
 }
 
 .pl--40 {
@@ -3262,7 +3262,7 @@ textarea:-ms-input-placeholder {
 }
 
 .pt--80 {
-  padding-top: 20px !important;
+  padding-top: 0px !important;
 }
 
 .pb--80 {
@@ -8705,7 +8705,7 @@ hr {
 }
 
 .bg_image--11 {
-  background-image: url(../images/bg/bg-image-11.jpg);
+  background-image: url(/assets/images/categoris/bg-image-11.jpg);
 }
 
 .bg_image--12 {
@@ -14210,6 +14210,7 @@ span.transparent-button:hover i {
   line-height: 15px;
   font-weight: 500;
   color: var(--color-heading);
+  margin-top: 16px;
   margin-bottom: 15px;
   display: inline-block;
   padding: 10px 20px;
@@ -18865,8 +18866,8 @@ span.transparent-button:hover i {
 
 .rbt-progress-parent {
   position: fixed;
-  right: 30px;
-  bottom: 30px;
+  right: 10px;
+  bottom: 70px;
   height: 46px;
   width: 46px;
   cursor: pointer;
@@ -18888,7 +18889,7 @@ span.transparent-button:hover i {
 .rbt-progress-parent::after {
   position: absolute;
   font-family: "feather" !important;
-  content: "";
+  content: "\e914";
   text-align: center;
   line-height: 46px;
   font-size: 20px;
@@ -26771,7 +26772,7 @@ Course Sidebar
 -------------------------*/
 .footer-style-1 .footer-top {
   padding-top: 80px;
-  padding-bottom: 90px;
+  padding-bottom: 20px;
 }
 @media only screen and (max-width: 767px) {
   .footer-style-1 .footer-top {
@@ -27160,7 +27161,7 @@ Course Sidebar
   background: rgba(39, 0, 255, 0.5);
   border-radius: 10px;
   backdrop-filter: blur(15px);
-  background-image: linear-gradient(218.15deg, #b966e763 0%, #2f57ef4a 100%);
+  background-image: linear-gradient(218.15deg, #e9967a 0%, #e9920f 100%);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .rbt-splash-slider .service-wrapper.service-white {
@@ -27350,8 +27351,8 @@ Course Sidebar
 -------------------------------*/
 .top-features-box {
   background: linear-gradient(208.29deg, #F5D9D5 0%, #F5EAB4 42.92%, #99D9F5 100%);
-  border-radius: 10px;
-  padding: 40px;
+  border-radius: 20px;
+  padding: 10px;
   position: relative;
   z-index: 1;
   box-shadow: var(--shadow-1);
