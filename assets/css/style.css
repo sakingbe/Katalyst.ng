@@ -1582,7 +1582,7 @@ ul.rbt-dropdown-menu li a {
 
 .bg-secondary-opacity {
   background: var(--color-warning) !important;
-  color: var(--color-primary) !important;
+  color: rgb(245, 245, 245) !important;
 }
 
 .bg-coral-opacity {
