@@ -2564,9 +2564,22 @@
     <script src="assets/js/vendor/paralax-scroll.js"></script>
     <script src="assets/js/vendor/paralax.min.js"></script>
     <script src="assets/js/vendor/countdown.js"></script>
-    <script src="assets/js/feather.js"></script>
     <script>
-        feather.replace()
+        feather.replace();
+    </script>
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/vendor/lottie.js"></script>
+
+    <script> if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("sw.js").then(swReg => {
+                    console.log("Worker Registered!");
+                }).catch(error => {
+                    console.log("there was an error", error);
+                });
+            });
+        }
     </script>
     <script src="assets/css/vendor/feather.js"></script>
 
