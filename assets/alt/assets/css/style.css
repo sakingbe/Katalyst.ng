@@ -16740,7 +16740,7 @@ fieldset:disabled .btn {
     padding-bottom: 7rem !important;
   }
   .pb-md-18 {
-    padding-bottom: 8rem !important;
+    padding-bottom: 1rem !important;
   }
   .pb-md-19 {
     padding-bottom: 9rem !important;
@@ -41124,5 +41124,9 @@ ul.rbt-dropdown-menu {
 }
 ul li a:hover {
   color: var(--color-primary);
+}
+.rbt-header .logo a img {
+    max-height: 40px;
+    object-fit: cover;
 }
 /*# sourceMappingURL=style.css.map */
