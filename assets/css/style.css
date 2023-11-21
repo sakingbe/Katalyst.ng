@@ -121,13 +121,17 @@
 ***************************************/
 
 /* --Font--*/
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap");
 
-/* --Font--*/
-.css-selector {
-  font-family: "Nunito", serif;
+  @font-face {
+    font-family: "Nunito";
+
+  src: url('assets/css/font/Nunito-Regular.ttf') format('truetype');
+  src: url('assets\css\font\Nunito-SemiBold.ttf') format('truetype');
+  src: url('assets\css\font\Nunito-ExtraBoldItalic.ttf') format('truetype');
+  src: url('assets\css\font\Nunito-BlackItalic.ttf') format('truetype');
+  src: url('assets/css/font/Nunito-Regular.ttf') format('truetype');
+
 }
-
 :root {
   --color-primary: #2f57ef;
   --color-secondary: #2f57ef;
@@ -217,9 +221,9 @@
   --transition: 0.3s;
   --transition-2: 256ms ease-in-out;
   --transition-3: transform 0.85s cubic-bezier(0.23, 1, 0.32, 1),
-    background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  --background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   --transition-4: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-  --font-primary: "Nunito", bold;
+  --font-primary: "Nunito";
   --font-secondary: "Nunito";
   --font-alt: "Nunito";
   --font-size-b1: 24px;
