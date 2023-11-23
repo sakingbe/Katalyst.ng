@@ -5507,7 +5507,7 @@ fieldset:disabled .btn {
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
   --bs-navbar-toggler-font-size: 1rem;
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='45' height='32' viewBox='0 0 45 32'%3e%3cpath fill='%233f78e0' d='M26.88 29.888c-1.076 1.289-2.683 2.103-4.48 2.103s-3.404-0.814-4.472-2.093l-0.008-0.009-5.12-7.040-8.192-10.048-3.52-4.608c-0.646-0.848-1.036-1.922-1.036-3.087 0-2.828 2.292-5.12 5.12-5.12 0.139 0 0.277 0.006 0.413 0.016l-0.018-0.001h33.664c0.118-0.010 0.256-0.015 0.396-0.015 2.828 0 5.12 2.292 5.12 5.12 0 1.165-0.389 2.239-1.045 3.1l0.009-0.013-3.52 4.608-7.872 10.048z'/%3e%3c/svg%3e");
+   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='45' height='32' viewBox='0 0 45 32'%3e%3cpath fill='%233f78e0' d='M26.88 29.888c-1.076 1.289-2.683 2.103-4.48 2.103s-3.404-0.814-4.472-2.093l-0.008-0.009-5.12-7.040-8.192-10.048-3.52-4.608c-0.646-0.848-1.036-1.922-1.036-3.087 0-2.828 2.292-5.12 5.12-5.12 0.139 0 0.277 0.006 0.413 0.016l-0.018-0.001h33.664c0.118-0.010 0.256-0.015 0.396-0.015 2.828 0 5.12 2.292 5.12 5.12 0 1.165-0.389 2.239-1.045 3.1l0.009-0.013-3.52 4.608-7.872 10.048z'/%3e%3c/svg%3e");
   --bs-navbar-toggler-border-color: transparent;
   --bs-navbar-toggler-border-radius: 0.4rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
@@ -32487,7 +32487,7 @@ button:focus {
   }
 }
 .nav-tabs .nav-link {
-  background: var(--bs-white);
+  background: rgb(8, 122, 224);
   transition: all 0.2s ease-in-out;
   font-size: 0.85rem;
   padding: 0.6rem 1.3rem;
@@ -32567,9 +32567,9 @@ button:focus {
 }
 .nav-tabs.nav-tabs-bg .nav-link.active,
 .nav-tabs.nav-tabs-bg .nav-link:hover {
-  color: #343f52;
+  color: #ffff;
   border-color: transparent;
-  background: var(--bs-white);
+  background: rgb(8, 122, 224);
   box-shadow: 0 0 0 0.05rem rgba(8, 60, 130, 0.06),
     0 0 1.25rem rgba(30, 34, 40, 0.04);
 }
@@ -32637,14 +32637,14 @@ header {
 .navbar.navbar-light.fixed .btn:not(.btn-expand):not(.btn-gradient) {
   background: var(--bs-primary);
   border-color: var(--bs-primary);
-  color: var(--bs-white);
+  color: rgb(8, 122, 224);
 }
 .navbar.navbar-bg-light {
-  background: var(--bs-white);
+  background: rgb(8, 122, 224);
   box-shadow: none;
 }
 .navbar.navbar-bg-dark {
-  background: #21262c;
+  background: #ffff;
 }
 .navbar .navbar-other .nav-item .nav-link {
   padding-top: 0 !important;
@@ -32739,7 +32739,7 @@ button.hamburger:before {
 .navbar.navbar-bg-dark button.hamburger,
 .navbar.navbar-dark button.hamburger,
 .navbar.position-absolute:not(.fixed):not(.navbar-light) button.hamburger {
-  color: var(--bs-white);
+  color: rgb(8, 122, 224);
 }
 .card {
   box-shadow: 0 0 0 0.05rem rgba(8, 60, 130, 0.06),
@@ -34473,8 +34473,8 @@ img.svg-inject {
 }
 @font-face {
   font-family: Unicons;
-  src: url(../fonts/unicons/Unicons.woff2) format("woff2"),
-    url(../fonts/unicons/Unicons.woff) format("woff");
+  src: url(../css/unicons/Unicons.woff2) format("woff2"),
+    url(../css/unicons/Unicons.woff) format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: block;

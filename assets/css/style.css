@@ -4,7 +4,7 @@
 	Katalyst:  Online Courses & Education platform.
 	Description: Speed up your learning
   Author: Akingbe Samuel for CodeinDevelopers
-    02/02/2023
+  02/02/2023
 
 	Note: This is style css.
 
@@ -121,17 +121,19 @@
 ***************************************/
 
 /* --Font--*/
-
   @font-face {
     font-family: "Nunito";
-
-  src: url('assets/css/font/Nunito-Regular.ttf') format('truetype');
-  src: url('assets\css\font\Nunito-SemiBold.ttf') format('truetype');
-  src: url('assets\css\font\Nunito-ExtraBoldItalic.ttf') format('truetype');
-  src: url('assets\css\font\Nunito-BlackItalic.ttf') format('truetype');
-  src: url('assets/css/font/Nunito-Regular.ttf') format('truetype');
-
+          src: url('../../assets/css/font/Nunito-Regular.ttf') format('truetype'),
+          src: url('../../assets/css/font/Nunito-SemiBold.ttf') format('truetype'),
+          src: url('../../assets/css/font/Nunito-ExtraBoldItalic.ttf') format('truetype'),
+          src: url('../../assets/css/font/Nunito-BlackItalic.ttf') format('truetype'),
+          src: url('../../assets/css/font/Nunito-Regular.ttf') format('truetype'),
 }
+
+@import url('../../assets/css/plugins/feathericon.css');
+
+@import url('assets/css/plugins/feathericon.min.css');
+
 :root {
   --color-primary: #2f57ef;
   --color-secondary: #2f57ef;
@@ -19189,8 +19191,8 @@ span.transparent-button:hover i {
 }
 .rbt-progress-parent::after {
   position: absolute;
-  font-family: "feather" !important;
-  content: "\e914";
+  font-family: "feathericon" !important;
+  content: " \f103";
   text-align: center;
   line-height: 46px;
   font-size: 20px;
@@ -19210,8 +19212,8 @@ span.transparent-button:hover i {
 }
 .rbt-progress-parent::before {
   position: absolute;
-  font-family: "feather" !important;
-  content: "\e914";
+  font-family: "feathericon" !important;
+  content: " \f103";
   text-align: center;
   line-height: 46px;
   font-size: 24px;
