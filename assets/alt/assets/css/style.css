@@ -3,12 +3,14 @@ Theme Name: Katalyst -
 
 Version:	3.4.0
 Author:	codein developers
+*
 */
-@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700);
-
-/* --Font--*/
-.css-selector {
-  font-family: "Nunito", serif;
+@font-face {
+    font-family: "feathericon";
+          src: url('../../assets/fonts/feathericon.ttf') format('truetype'),
+          src: url('../../assets/fonts/feathericon.woff') format('woff'),
+          src: url('../../assets/fonts/feathericon.woff2') format('woff2'),
+          src: url('../../assets/fonts/feathericon.eot') format(''),
 }
 :root,
 [data-bs-theme="light"] {
@@ -195,7 +197,7 @@ Author:	codein developers
   --bs-border-subtle-dark: #bebfc2;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: "Manrope", sans-serif;
+  --bs-font-sans-serif: "Nunito", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(

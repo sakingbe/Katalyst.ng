@@ -130,9 +130,14 @@
           src: url('../../assets/css/font/Nunito-Regular.ttf') format('truetype'),
 }
 
-@import url('../../assets/css/plugins/feathericon.css');
+@font-face {
+    font-family: "feathericon";
+          src: url('../../assets/css/font/feathericon.ttf') format('truetype'),
+          src: url('../../assets/css/font/feathericon.woff') format('woff'),
+          src: url('../../assets/css/font/feathericon.woff2') format('woff2'),
+          src: url('../../assets/css/font/feathericon.eot') format(''),
+}
 
-@import url('assets/css/plugins/feathericon.min.css');
 
 :root {
   --color-primary: #2f57ef;
