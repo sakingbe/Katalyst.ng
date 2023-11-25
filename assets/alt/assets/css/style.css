@@ -717,6 +717,18 @@ progress {
   max-width: 100%;
   height: auto;
 }
+.img-thumbnail2 {
+  padding: 0.25rem;
+  background-color: var(--bs-body-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  box-shadow: var(--bs-box-shadow-sm);
+  max-width: 130%;
+  height: auto;
+}
+
+
+
 .figure {
   display: inline-block;
 }
