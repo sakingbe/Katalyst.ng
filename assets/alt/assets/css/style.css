@@ -5265,7 +5265,7 @@ fieldset:disabled .btn {
   --bs-dropdown-link-color: #cacaca;
   --bs-dropdown-link-hover-color: var(--bs-white);
   --bs-dropdown-divider-bg: transparent;
-  --bs-dropdown-link-hover-bg: rgba(var(--bs-white-rgb), 0.15);
+  --bs-dropdown-link-hover-bg: rgba(var(-rgb), 0.15);
   --bs-dropdown-link-active-color: var(--bs-primary);
   --bs-dropdown-link-active-bg: inherit;
   --bs-dropdown-link-disabled-color: #959ca9;
@@ -7844,7 +7844,7 @@ fieldset:disabled .btn {
   --bs-offcanvas-padding-x: 1.5rem;
   --bs-offcanvas-padding-y: 1.5rem;
   --bs-offcanvas-color: var(--bs-white);
-  --bs-offcanvas-bg: #1e2228;
+  --bs-offcanvas-bg: #fff;
   --bs-offcanvas-border-width: 0;
   --bs-offcanvas-border-color: transparent;
   --bs-offcanvas-box-shadow: none;
@@ -11754,7 +11754,7 @@ fieldset:disabled .btn {
 }
 .text-white {
   --bs-text-opacity: 1;
-  color: #fff !important;
+  color: #000 !important;
 }
 .text-light {
   --bs-text-opacity: 1;
@@ -24177,7 +24177,7 @@ a.text-reset:hover {
 .link-inverse,
 .text-inverse,
 .text-inverse a:not(.btn) {
-  color: var(--bs-white);
+  color: #000;
 }
 .bg-dark.link-inverse,
 .bg-dark.text-inverse,
@@ -30225,6 +30225,10 @@ button:focus {
 .social.social-white a:hover i {
   color: var(--bs-white) !important;
 }
+.social.social-black a i,
+.social.social-black a:hover i {
+  color: #000 !important;
+}
 .social > a {
   margin: 0 0.7rem 0 0;
 }
@@ -31096,7 +31100,7 @@ button:focus {
   .navbar-expand-lg .navbar-collapse .nav-link:focus,
   .navbar-expand-lg .navbar-collapse .nav-link:hover,
   .navbar-expand-lg .navbar-collapse .show > .nav-link {
-    color: var(--bs-white) !important;
+    color: #260000 !important;
   }
   .navbar-expand-lg .navbar-collapse .nav-link {
     padding-top: 0.3rem;
@@ -33522,6 +33526,10 @@ button.hamburger:before {
 }
 .btn-close-white {
   color: var(--bs-white);
+}
+
+.btn-close-black {
+  color: #000;
 }
 .btn-close-white:before {
   background: rgba(var(--bs-white-rgb), 0.08);
@@ -39552,7 +39560,7 @@ table.shopping-cart td {
   background-image: radial-gradient(var(--bs-ash) 2px, transparent 2.5px);
 }
 .bg-dot.white {
-  background-image: radial-gradient(var(--bs-white) 2px, transparent 2.5px);
+  background-image: radial-gradient(var() 2px, transparent 2.5px);
 }
 .bg-dot.light {
   background-image: radial-gradient(var(--bs-light) 2px, transparent 2.5px);
