@@ -23,7 +23,7 @@ Author:	codein developers
   --bs-gray-700: #2f353a;
   --bs-gray-800: #21262c;
   --bs-gray-900: #1e2228;
-  --bs-blue: #3f78e0;
+  --bs-blue: #0004FD;
   --bs-sky: #5eb9f0;
   --bs-purple: #747ed1;
   --bs-grape: #605dba;
@@ -42,7 +42,7 @@ Author:	codein developers
   --bs-light: #fefefe;
   --bs-gray: #f6f7f9;
   --bs-dark: #262b32;
-  --bs-primary: #3f78e0;
+  --bs-primary: #0004FD;
   --bs-secondary: #aab0bc;
   --bs-success: #45c4a0;
   --bs-info: #54a8c7;
@@ -25185,7 +25185,7 @@ figure img {
   z-index: 1;
 }
 .bg-soft-primary {
-  background-color: rgb(244, 247, 250) !important;
+  background-color: #FFFBFE !important;
 }
 .bg-soft-blue {
   background-color: var(--bs-soft-blue) !important;
