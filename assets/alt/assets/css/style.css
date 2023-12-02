@@ -32655,7 +32655,7 @@ header {
 .navbar.navbar-light.fixed .btn:not(.btn-expand):not(.btn-gradient) {
   background: var(--bs-primary);
   border-color: var(--bs-primary);
-  color: rgb(8, 122, 224);
+  color: #fff;
 }
 .navbar.navbar-bg-light {
   background: rgb(8, 122, 224);
