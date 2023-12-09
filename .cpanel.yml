@@ -1,22 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/orangete/public_html
-    - /bin/cp -r * $DEPLOYPATH
-    - /bin/mv $DEPLOYPATH/.cpanel.yml $DEPLOYPATH/.cpanel.yml.bak
-    - /bin/mv $DEPLOYPATH/.git $DEPLOYPATH/.git.bak
-    - /bin/mv $DEPLOYPATH/.gitignore $DEPLOYPATH/.gitignore.bak
-    - /bin/mv $DEPLOYPATH/.gitattributes $DEPLOYPATH/.gitattributes.bak
-    - /bin/mv $DEPLOYPATH/.htaccess $DEPLOYPATH/.htaccess.bak
-    - /bin/mv $DEPLOYPATH/.well-known $DEPLOYPATH/.well-known.bak
-    - /bin/mv $DEPLOYPATH/.sass-cache $DEPLOYPATH/.sass-cache.bak
-    - /bin/mv $DEPLOYPATH/node_modules $DEPLOYPATH/node_modules.bak
-    - /bin/mv $DEPLOYPATH/vendor $DEPLOYPATH/vendor.bak
-    - /bin/mv $DEPLOYPATH/composer.json $DEPLOYPATH/composer.json.bak
-    - /bin/mv $DEPLOYPATH/composer.lock $DEPLOYPATH/composer.lock.bak
-    - /bin/mv $DEPLOYPATH/package.json $DEPLOYPATH/package.json.bak
-    - /bin/mv $DEPLOYPATH/package-lock.json $DEPLOYPATH/package-lock.json.bak
-    - /bin/mv $DEPLOYPATH/yarn.lock $DEPLOYPATH/yarn.lock.bak
-    - /bin/mv $DEPLOYPATH/Gruntfile.js $DEPLOYPATH/Gruntfile.js.bak
-    - /bin/mv $DEPLOYPATH/gulpfile.js $DEPLOYPATH/gulpfile.js.bak
-    - /bin/mv $DEPLOYPATH/.env $DEPLOYPATH/.env.bak
+    - export DEPLOYPATH=/home/orangete/public_html/
+    - /bin/cp -R * $DEPLOYPATH
