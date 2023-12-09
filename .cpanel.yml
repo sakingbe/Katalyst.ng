@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/orangete/public_html/
+    - export DEPLOYPATH=/home/katalyst/public_html/
     - /bin/cp -R * $DEPLOYPATH
