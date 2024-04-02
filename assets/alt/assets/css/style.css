@@ -26,7 +26,7 @@ Author:	codein developers
   --bs-blue: #0004FD;
   --bs-sky: #5eb9f0;
   --bs-purple: #747ed1;
-  --bs-grape: #605dba;
+  --bs-grape: #2f57ef;
   --bs-violet: #a07cc5;
   --bs-pink: #d16b86;
   --bs-fuchsia: #e668b3;
@@ -4154,19 +4154,19 @@ fieldset:disabled .btn {
 }
 .btn-grape {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #605dba;
-  --bs-btn-border-color: #605dba;
+  --bs-btn-bg: #2f57ef;
+  --bs-btn-border-color: #2f57ef;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #605dba;
-  --bs-btn-hover-border-color: #605dba;
+  --bs-btn-hover-bg: #2f57ef;
+  --bs-btn-hover-border-color: #2f57ef;
   --bs-btn-focus-shadow-rgb: 120, 117, 196;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #605dba;
-  --bs-btn-active-border-color: #605dba;
+  --bs-btn-active-bg: #2f57ef;
+  --bs-btn-active-border-color: #2f57ef;
   --bs-btn-active-shadow: 0rem 0.25rem 0.75rem rgba(30, 34, 40, 0.15);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #605dba;
-  --bs-btn-disabled-border-color: #605dba;
+  --bs-btn-disabled-bg: #2f57ef;
+  --bs-btn-disabled-border-color: #2f57ef;
 }
 .btn-violet {
   --bs-btn-color: #fff;
@@ -4553,19 +4553,19 @@ fieldset:disabled .btn {
   --bs-gradient: none;
 }
 .btn-outline-grape {
-  --bs-btn-color: #605dba;
-  --bs-btn-border-color: #605dba;
+  --bs-btn-color: #2f57ef;
+  --bs-btn-border-color: #2f57ef;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #605dba;
-  --bs-btn-hover-border-color: #605dba;
+  --bs-btn-hover-bg: #2f57ef;
+  --bs-btn-hover-border-color: #2f57ef;
   --bs-btn-focus-shadow-rgb: 96, 93, 186;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #605dba;
-  --bs-btn-active-border-color: #605dba;
+  --bs-btn-active-bg: #2f57ef;
+  --bs-btn-active-border-color: #2f57ef;
   --bs-btn-active-shadow: 0rem 0.25rem 0.75rem rgba(30, 34, 40, 0.15);
-  --bs-btn-disabled-color: #605dba;
+  --bs-btn-disabled-color: #2f57ef;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #605dba;
+  --bs-btn-disabled-border-color: #2f57ef;
   --bs-gradient: none;
 }
 .btn-outline-violet {
@@ -10988,8 +10988,8 @@ fieldset:disabled .btn {
   padding-bottom: 4rem !important;
 }
 .py-14 {
-  padding-top: 4.5rem !important;
-  padding-bottom: 4.5rem !important;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
 }
 .py-15 {
   padding-top: 5rem !important;
@@ -11081,7 +11081,7 @@ fieldset:disabled .btn {
   padding-top: 4.5rem !important;
 }
 .pt-15 {
-  padding-top: 5rem !important;
+  padding-top: 0rem !important;
 }
 .pt-16 {
   padding-top: 6rem !important;
@@ -11706,7 +11706,7 @@ fieldset:disabled .btn {
 }
 .text-grape {
   --bs-text-opacity: 1;
-  color: #605dba !important;
+  color: #2f57ef !important;
 }
 .text-violet {
   --bs-text-opacity: 1;
@@ -16517,8 +16517,8 @@ fieldset:disabled .btn {
     padding-bottom: 7rem !important;
   }
   .py-md-18 {
-    padding-top: 8rem !important;
-    padding-bottom: 8rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
   }
   .py-md-19 {
     padding-top: 9rem !important;
@@ -24415,7 +24415,7 @@ h6 {
   background-color: #747ed1;
 }
 .text-line.text-grape:before {
-  background-color: #605dba;
+  background-color: #2f57ef;
 }
 .text-line.text-violet:before {
   background-color: #a07cc5;
@@ -24640,7 +24640,7 @@ h6 {
   background: var(--bs-primary);
 }
 .underline-gradient-1:after {
-  background: linear-gradient(120deg, #f857a6 10%, #ef3f6e 100%);
+  background: linear-gradient(120deg, #2f57ef 10%, #2f57ef 100%);
 }
 .underline-gradient-2:after {
   background: linear-gradient(40deg, #f5b161 0.4%, #ec366e 100.2%);
@@ -24658,7 +24658,7 @@ h6 {
   background: linear-gradient(45deg, #08aeea 0, #2af598 100%);
 }
 .underline-gradient-7:after {
-  background: linear-gradient(100deg, #605dba 20%, #3f78e0 85%);
+  background: linear-gradient(100deg, #2f57ef 20%, #3f78e0 85%);
 }
 .underline-gradient-8:after {
   background: linear-gradient(0deg, #2c46a7, #3757c4);
@@ -26810,7 +26810,7 @@ mark.doc {
   padding-right: 0.05em;
 }
 .text-gradient.text-line.gradient-1:before {
-  background: #f857a6;
+  background: #2f57ef;
 }
 .text-gradient.text-line.gradient-2:before {
   background: #f5b161;
@@ -29446,7 +29446,7 @@ button:focus {
   padding-bottom: 0.75rem;
 }
 .gradient-1 {
-  background-image: linear-gradient(120deg, #f857a6 10%, #ef3f6e 100%);
+  background-image: linear-gradient(120deg, #2f57ef 10%, #2f57ef 100%);
 }
 .gradient-1.btn-outline-gradient,
 .gradient-1.btn-outline-gradient span {
@@ -29454,7 +29454,7 @@ button:focus {
       rgba(var(--bs-white-rgb), 0),
       rgba(var(--bs-white-rgb), 0)
     ),
-    linear-gradient(120deg, #f857a6 10%, #ef3f6e 100%);
+    linear-gradient(120deg, #2f57ef 10%, #2f57ef 100%);
 }
 .gradient-2 {
   background-image: linear-gradient(40deg, #f5b161 0.4%, #ec366e 100.2%);
@@ -29517,7 +29517,7 @@ button:focus {
     linear-gradient(45deg, #08aeea 0, #2af598 100%);
 }
 .gradient-7 {
-  background-image: linear-gradient(100deg, #605dba 20%, #3f78e0 85%);
+  background-image: linear-gradient(100deg, #2f57ef 20%, #3f78e0 85%);
 }
 .gradient-7.btn-outline-gradient,
 .gradient-7.btn-outline-gradient span {
@@ -29525,7 +29525,7 @@ button:focus {
       rgba(var(--bs-white-rgb), 0),
       rgba(var(--bs-white-rgb), 0)
     ),
-    linear-gradient(100deg, #605dba 20%, #3f78e0 85%);
+    linear-gradient(100deg, #2f57ef 20%, #3f78e0 85%);
 }
 .gradient-8 {
   background-image: linear-gradient(0deg, #2c46a7, #3757c4);
@@ -34388,13 +34388,13 @@ img.svg-inject {
   fill: #45c4a0;
 }
 .solid-duo.text-grape-fuchsia .fill-primary {
-  fill: #605dba;
+  fill: #2f57ef;
 }
 .solid-duo.text-grape-fuchsia .fill-secondary {
-  fill: #f857a6;
+  fill: #2f57ef;
 }
 .solid-duo.text-grape-green .fill-primary {
-  fill: #605dba;
+  fill: #2f57ef;
 }
 .solid-duo.text-grape-green .fill-secondary {
   fill: #94dd8e;
@@ -34418,7 +34418,7 @@ img.svg-inject {
   fill: #e668b3;
 }
 .solid-duo.text-grape-yellow .fill-primary {
-  fill: #605dba;
+  fill: #2f57ef;
 }
 .solid-duo.text-grape-yellow .fill-secondary {
   fill: #fab758;
@@ -38280,7 +38280,7 @@ figure.overlay img {
   background: rgba(255, 255, 255, 0.6);
 }
 .overlay.overlay-gradient-1 span.bg {
-  background: linear-gradient(120deg, #f857a6 10%, #ef3f6e 100%);
+  background: linear-gradient(120deg, #2f57ef 10%, #2f57ef 100%);
 }
 .overlay.overlay-gradient-2 span.bg {
   background: linear-gradient(40deg, #f5b161 0.4%, #ec366e 100.2%);
@@ -38298,7 +38298,7 @@ figure.overlay img {
   background: linear-gradient(45deg, #08aeea 0, #2af598 100%);
 }
 .overlay.overlay-gradient-7 span.bg {
-  background: linear-gradient(100deg, #605dba 20%, #3f78e0 85%);
+  background: linear-gradient(100deg, #2f57ef 20%, #3f78e0 85%);
 }
 .overlay.overlay-gradient-8 span.bg {
   background: linear-gradient(0deg, #2c46a7, #3757c4);
