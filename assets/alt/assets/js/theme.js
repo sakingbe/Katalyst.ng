@@ -107,7 +107,7 @@ var theme = {
     navOffCanvasBtn.forEach(e => {
       e.addEventListener('click', event => {
         bsOffCanvas.show();
-      })
+      }) 
     });
     scrollLink.forEach(e => {
       e.addEventListener('click', event => {
