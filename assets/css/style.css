@@ -3290,7 +3290,7 @@ textarea:-ms-input-placeholder {
 }
 
 .mb--60 {
-  margin-bottom: 60px !important;
+  margin-bottom: 30px !important;
 }
 
 .mr--60 {
@@ -3582,7 +3582,7 @@ textarea:-ms-input-placeholder {
 }
 
 .ptb--100 {
-  padding: 100px 0 !important;
+  padding: 75px 0 !important;
 }
 
 .plr--100 {
