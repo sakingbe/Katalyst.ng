@@ -14665,8 +14665,11 @@ span.transparent-button:hover i {
 @media only screen and (max-width: 767px) {
   .rbt-new-badge.rbt-new-badge-one {
     font-size: 14px;
-    padding: 18px 10px 18px 10px;
+    padding: 18px 10px;
+    margin: 0 auto; /* Centering the element horizontally */
+    display: block; /* Ensuring it behaves as a block-level element */
   }
+
 }
 .rbt-new-badge.rbt-new-badge-one:before {
   position: absolute;
