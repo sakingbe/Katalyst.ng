@@ -838,8 +838,9 @@ h6,
 p {
   font-size: 18px;
   line-height: 1.45;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   p {
     font-size: 16px;
@@ -1018,7 +1019,7 @@ ol {
 
 ul {
   list-style: disc;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   padding-left: 20px;
 }
 ul.liststyle.bullet li {
