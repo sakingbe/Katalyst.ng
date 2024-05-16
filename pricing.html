@@ -51,6 +51,13 @@
         window.addEventListener('message', receiveMessage, false);
 
     </script>
+    <script>
+        // Target all <a> elements within the iframe and modify their target attribute
+        const iframeLinks = document.querySelectorAll('a');
+        iframeLinks.forEach(link => {
+            link.setAttribute('target', '_blank'); // Open links in new tab or window
+        });
+    </script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/vendor/slick.css">
@@ -120,7 +127,7 @@
                             <div class="hamberger">
                                 <button class="hamberger-button rbt-round-btn">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6" >
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                                         <path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
@@ -149,7 +156,8 @@
                     </div>
                     <div class="rbt-btn-close">
                         <button class="close-button rbt-round-btn"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" width="30" height="30">
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" width="30"
+                                height="30">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg></button>
                     </div>
@@ -244,8 +252,8 @@
         </div>
     </div>
     <!-- End Mobile Area  -->
-<iframe id="myIframe" src="pricing_frame.html" frameborder="0" scrolling="no"
-    style="width: 100%; border: none;"></iframe>
+    <iframe id="myIframe" src="pricing_frame.html" frameborder="0" scrolling="no"
+        style="width: 100%; border: none;"></iframe>
 
     <!--Start Footer area -->
     <div class="rbt-separator-mid">
@@ -424,7 +432,7 @@
                                                         <p class="rbt-link-hover text-center ">&copy;
                                                             <script>new Date().getFullYear() > 2012 && document.write("" + new Date().getFullYear());</script>
                                                             Katalyst Digitech Limited &nbsp; <br>Designed By <a
-                                                                href="#">CodeinDevelopers</a>
+                                                                href="http://codeindevelopers.com.ng/">CodeinDevelopers</a>
                                                         </p>
                                                     </div>
                                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
@@ -452,7 +460,7 @@
         <!-- JS -->
 
         <!-- Modernizer JS -->
-       
+
         <script src="assets/js/vendor/modernizr.min.js"></script>
         <!-- jQuery JS -->
         <script src="assets/js/vendor/jquery.js"></script>

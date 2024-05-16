@@ -51,6 +51,13 @@
         window.addEventListener('message', receiveMessage, false);
 
     </script>
+    <script>
+        // Target all <a> elements within the iframe and modify their target attribute
+        const iframeLinks = document.querySelectorAll('a');
+        iframeLinks.forEach(link => {
+            link.setAttribute('target', '_blank'); // Open links in new tab or window
+        });
+    </script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/vendor/slick.css">
@@ -246,8 +253,8 @@
         </div>
     </div>
     <!-- End Mobile Area  -->
-<iframe id="myIframe" src="app_frame.html" frameborder="0" scrolling="no"
-    style="width: 100%; border: none;"></iframe>
+    <iframe id="myIframe" src="app_frame.html" frameborder="0" scrolling="no"
+        style="width: 100%; border: none;"></iframe>
 
     <!--Start Footer area -->
     <div class="rbt-separator-mid">
@@ -427,7 +434,7 @@
                                                         <p class="rbt-link-hover text-center ">&copy;
                                                             <script>new Date().getFullYear() > 2012 && document.write("" + new Date().getFullYear());</script>
                                                             Katalyst Digitech Limited &nbsp; <br>Designed By <a
-                                                                href="#">CodeinDevelopers</a>
+                                                                href="http://codeindevelopers.com.ng/">CodeinDevelopers</a>
                                                         </p>
                                                     </div>
                                                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
