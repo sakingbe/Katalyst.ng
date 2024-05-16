@@ -24,7 +24,7 @@
                 <p class="lead fs-23 lh-sm mb-7 pe-xxl-15">Share your expertise, reach a global audience and make money
                   on
                   Katalyst.</p>
-                <div><a href="app.katalyst.ng/register" class="btn btn-lg btn-gradient gradient-1 rounded">Join Now</a>
+                <div><a href="https://app.katalyst.ng/register" class="btn btn-lg btn-gradient gradient-1 rounded">Join Now</a>
                 </div>
               </div>
               <!--/column -->
@@ -437,7 +437,7 @@
                 </div>
                 <!-- /.row -->
                 <div class="d-flex justify-content-center">
-                  <span><a class="btn btn-lg btn-gradient gradient-1 rounded">Register as an Admin</a></span>
+                  <span><a href="https://app.katalyst.ng/register" class="btn btn-lg btn-gradient gradient-1 rounded">Register as an Admin</a></span>
                 </div>
               </div>
               <!--/.container -->
@@ -499,8 +499,20 @@
     <!-- /section -->
     </div>
     </div>
+  <script>// Function to send message containing iframe height to parent window
+    function sendHeightToParent() {
+      const iframeHeight = document.body.scrollHeight;
+      parent.postMessage({ iframeHeight }, '*'); // '*' allows any origin to receive the message
+    }
+
+    // Call sendHeightToParent when the iframe content finishes loading or changes
+    window.addEventListener('load', sendHeightToParent); // Adjust height on initial load
+    window.addEventListener('resize', sendHeightToParent); // Adjust height on window resize
+
+</script>
     <script src="assets/alt/assets/js\plugins.js"></script>
     <script src="assets/alt/assets/js\theme.js"></script>
+
 </body>
 
 </html>
