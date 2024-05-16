@@ -4,6 +4,17 @@
 <head>
   <meta charset="utf-8" />
   <!------------------------------------------------------------------------------------------------------------------------------------------------->
+  <script>// Function to send message containing iframe height to parent window
+    function sendHeightToParent() {
+      const iframeHeight = document.body.scrollHeight;
+      parent.postMessage({ iframeHeight }, '*'); // '*' allows any origin to receive the message
+    }
+
+    // Call sendHeightToParent when the iframe content finishes loading or changes
+    window.addEventListener('load', sendHeightToParent); // Adjust height on initial load
+    window.addEventListener('resize', sendHeightToParent); // Adjust height on window resize
+
+  </script>
   <link rel="stylesheet" href="assets/alt/assets/css/plugins.css">
   <link rel="stylesheet" href="assets/alt/assets/css/style.css">
   <link rel="preload" href="assets/alt/assets/fonts/nunito/nunito.css" as="style" onload="this.rel='stylesheet'">
@@ -362,17 +373,7 @@
           </section>
           <!-- /section -->
         </div>
-  <script>// Function to send message containing iframe height to parent window
-    function sendHeightToParent() {
-      const iframeHeight = document.body.scrollHeight;
-      parent.postMessage({ iframeHeight }, '*'); // '*' allows any origin to receive the message
-    }
-
-    // Call sendHeightToParent when the iframe content finishes loading or changes
-    window.addEventListener('load', sendHeightToParent); // Adjust height on initial load
-    window.addEventListener('resize', sendHeightToParent); // Adjust height on window resize
-
-  </script>
+ 
         <script src="assets/alt/assets/js/plugins.js"></script>
         <script src="assets/alt/assets/js/theme.js"></script>
 </body>

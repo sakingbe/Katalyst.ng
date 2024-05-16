@@ -36,6 +36,21 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets\images\favicon.ico">
     <!-- Favicon -->
     <!-- CSS links --=== -->
+    <script>// Function to handle messages sent from the iframe
+        function receiveMessage(event) {
+            // Set the height of the iframe based on the message data
+            if (event.data && typeof event.data === 'object' && event.data.iframeHeight) {
+                const iframe = document.getElementById('myIframe');
+                if (iframe) {
+                    iframe.style.height = `${event.data.iframeHeight}px`;
+                }
+            }
+        }
+
+        // Add event listener to handle incoming messages
+        window.addEventListener('message', receiveMessage, false);
+
+    </script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/vendor/slick.css">
@@ -53,27 +68,6 @@
     <link rel="stylesheet" href="assets/css/plugins/magnigy-popup.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/plugins/feathericon.min.css">
-    <style>
-        #myIframe {
-            display: block;
-            width: 100%;
-
-        }
-
-        @media screen and (max-width: 768px) {
-            #myIframe {
-                height: 8700px;
-                /* Adjust for mobile view */
-            }
-        }
-
-        @media screen and (min-width: 769px) {
-            #myIframe {
-                height: 3000px;
-                /* Adjust for desktop view */
-            }
-        }
-    </style>
 
     <!-- CSS links --===== -->
 </head>
@@ -459,21 +453,7 @@
         </div>
 
         <!-- JS -->
-<script>// Function to handle messages sent from the iframe
-    function receiveMessage(event) {
-        // Set the height of the iframe based on the message data
-        if (event.data && typeof event.data === 'object' && event.data.iframeHeight) {
-            const iframe = document.getElementById('myIframe');
-            if (iframe) {
-                iframe.style.height = `${event.data.iframeHeight}px`;
-            }
-        }
-    }
 
-    // Add event listener to handle incoming messages
-    window.addEventListener('message', receiveMessage, false);
-
-</script>
         <!-- Modernizer JS -->
         <script src="assets/js/vendor/modernizr.min.js"></script>
         <!-- jQuery JS -->
